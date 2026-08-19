@@ -2,7 +2,6 @@ import json
 
 nome_arquivo = "clientes_nomes.json"
 
-# Dicionário/Lista com os dados dos clientes
 clientes = [
     {
         "Nome completo": "Ivan Silva",
@@ -27,12 +26,11 @@ clientes = [
     }
 ]
 
-# --- ESCRITA (Salvar) ---
+
 with open(nome_arquivo, "w", encoding="utf-8") as arquivo:
     json.dump(clientes, arquivo, ensure_ascii=False, indent=2)
-print(f"✅ Dados salvos em '{nome_arquivo}' com sucesso!")
+print(f"Dados salvos em '{nome_arquivo}' com sucesso!")
 
-# --- LEITURA (Carregar) ---
 print("\n--- Carregando dados do arquivo JSON ---")
 with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
     clientes_carregados = json.load(arquivo)

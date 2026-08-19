@@ -1,0 +1,2 @@
+Linha 1: Aprendendo manipulacao de arquivos em Python.
+Linha 2: Arquivo .txt lido com sucesso!
