@@ -8,24 +8,31 @@ conteudo = arquivo.read()
 print(conteudo)"
 '''
 
-def manipular_arquivo(nome_arquivo, texto):
-    # 1. Escrevendo no arquivo (modo 'w' cria o arquivo ou sobrescreve seu conteúdo)
-    with open(nome_arquivo, "w", encoding="utf-8") as arquivo:
-        arquivo.write(texto)
-    print(f"Conteúdo salvo com sucesso em '{nome_arquivo}'.\n")
 
-    # 2. Lendo o arquivo (modo 'r' lê todo o conteúdo)
-    with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
-        conteudo = arquivo.read()
-    
-    return conteudo
+# 1 . Criando um arquivo TXT com o nome "nome_arquivo.txt" 
+# e escrevendo algumas informações nele.
+nome_arquivo = "dados_arquivo.txt"
 
-# Exemplo de uso:
-nome = "dados.txt"
-conteudo_para_salvar = "Linha 1: Aprendendo manipulacao de arquivos em Python.\nLinha 2: Arquivo .txt lido com sucesso!"
 
-# Executa e exibe o resultado
-resultado = manipular_arquivo(nome, conteudo_para_salvar)
+# 2 . Conteúdo a ser escrito no arquivo
+# --- ESCRITA ---
+conteudo = [
+    "Ester Furukawa;16 anos;02899-000;947541;esterfurukawa@mail.com\n",
+    "Isabelly Castelo;17 anos;057193-000;978786;isabellycastelo@mail.com\n",
+    "Sarah Santos;15 anos;089880-100;98799;sarahsantos@gmail.com\n"
+]
 
-print("--- Conteúdo Lido do Arquivo ---")
-print(resultado)
+
+# 3 . Escrevendo no arquivo
+with open(nome_arquivo, "w", encoding="utf-8") as arquivo:
+    arquivo.writelines(conteudo)
+print(f"✅ Arquivo '{nome_arquivo}' criado e escrito com sucesso!")
+
+
+
+# 4 . Lendo o conteúdo do arquivo
+# --- LEITURA ---
+print("\n--- Lendo o conteúdo do arquivo TXT ---")
+with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
+    texto = arquivo.read()
+    print(texto)
