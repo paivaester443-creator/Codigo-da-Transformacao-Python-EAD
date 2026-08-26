@@ -1,3 +1,5 @@
+
+#Criando espaço para criar livro, titulo e autor do livro que será guardado
 class Livro:
     def __init__(self, titulo, autor):
         self.titulo = titulo
@@ -8,6 +10,8 @@ class Livro:
         status = "Disponível" if self.disponivel else "Emprestado"
         return f"'{self.titulo}' - {self.autor} [{status}]"
 
+
+#Espaço criado para guardar, adiconar, emprestar e devolver os livros no acervo
 
 class Biblioteca:
     def __init__(self, nome):

@@ -11,10 +11,10 @@ Subtração
 
 '''
 
-def soma(a, b):
+def adicao(a, b):
     return a + b
 
-def subtracao(a, b):
+def subtrair(a, b):
     return a - b
 
 def multiplicacao(a, b):

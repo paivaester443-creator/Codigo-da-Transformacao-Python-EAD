@@ -13,6 +13,7 @@ def jogo_adivinhacao():
     print("=== Jogo de Adivinhação das Cartas (1 a 24) ===")
     print(f"Você tem até {tentativas_max} tentativas para adivinhar a carta secreta!\n")
 
+# 
     tentativas = 0
     while tentativas < tentativas_max:
         tentativas += 1

@@ -1,3 +1,5 @@
+#Criando classe do carro, qual a marca, o modelo e o ano dos carros
+# previamente inseridos
 class Carro:
     def __init__(self, marca, modelo, ano):
         self.marca = marca
