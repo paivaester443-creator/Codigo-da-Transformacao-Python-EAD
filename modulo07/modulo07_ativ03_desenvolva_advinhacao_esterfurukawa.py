@@ -1,33 +1,32 @@
+import math
 import random
 
-# 1. Definindo naipes e valores
-naipes = ["Copas", "Espadas", "Ouros", "Paus"]
-valores = ["Ás", "10", "Valete", "Dama", "Rei", "9"]
 
-# 2. Criando o baralho com as 24 combinações
-baralho = []
-for valor in valores:
-    for naipe in naipes:
-        baralho.append(f"{valor} de {naipe}")
+def jogo_adivinhacao():
+    limite_inferior = 1
+    limite_superior = 24
 
-# 3. Sorteando a carta secreta inicial
-carta_secreta = random.choice(baralho)
+    # Utiliza math.ceil e math.log2 para calcular a base de tentativas + margem (resulta em 6)
+    tentativas_max = math.ceil(math.log2(limite_superior)) + 1
+    numero_secreto = random.randint(limite_inferior, limite_superior)
 
-print("🃏 Bem-vindo ao Jogo de Adivinhação de Cartas!")
-print("Tente adivinhar a carta secreta (exemplo: 'Ás de Copas').\n")
+    print("=== Jogo de Adivinhação das Cartas (1 a 24) ===")
+    print(f"Você tem até {tentativas_max} tentativas para adivinhar a carta secreta!\n")
 
-# 4. Loop de 6 tentativas
-for tentativa in range(1, 7):
-    print(f"--- Tentativa {tentativa} de 6 ---")
-    chute = input("Qual é o seu palpite? ").strip()
+    tentativas = 0
+    while tentativas < tentativas_max:
+        tentativas += 1
+        chute = int(input(f"Tentativa {tentativas}/{tentativas_max} - Digite seu palpite (1 a 24): "))
 
-    # 5. Regra especial: na 6ª tentativa, a carta secreta vira o chute!
-    if tentativa == 6:
-        carta_secreta = chute
-
-    # 6. Verificação do palpite
-    if chute.lower() == carta_secreta.lower():
-        print(f"🎉 Parabéns! Você acertou! A carta secreta era '{carta_secreta}'.")
-        break
+        if chute == numero_secreto:
+            print(f"🎉 Parabéns! Você acertou a carta {numero_secreto} em {tentativas} tentativa(s)!")
+            break
+        elif chute < numero_secreto:
+            print("💡 Dica: A carta secreta é MAIOR.\n")
+        else:
+            print("💡 Dica: A carta secreta é MENOR.\n")
     else:
-        print("❌ Errou!")
+        print(f"❌ Fim de jogo! A carta secreta era {numero_secreto}.")
+
+
+jogo_adivinhacao()
