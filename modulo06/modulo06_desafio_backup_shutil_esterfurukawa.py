@@ -1,8 +1,8 @@
 import os
 import shutil
 
-origem = "pasta_origem"
-destino = "pasta_destino"
+origem = "modulo06/dados_importantes"
+destino = "modulo06/meus_backups"
 
 # Cria a pasta de origem e um arquivo de teste caso não existam
 if not os.path.exists(origem):
