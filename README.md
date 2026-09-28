@@ -6,23 +6,23 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ## 📌 Índice de Módulos
 
-- [Módulo 01: Git, GitHub e Metodologias Ágeis](./Modulo_01)
-- [Módulo 02: Introdução ao Python](./Modulo_02)
-- [Módulo 03: Lógica de Programação com Python](./Modulo_03)
-- [Módulo 04: Estruturas de Dados](./Modulo_04)
-- [Módulo 05: Funções em Python](./Modulo_05)
-- [Módulo 06: Manipulação de Arquivos](./Modulo_06)
-- [Módulo 07: Módulos e Pacotes](./Modulo_07)
-- [Módulo 08: Programação Orientada a Objetos (POO)](./Modulo_08)
-- [Módulo 09: Tratamento de Exceções](./Modulo_09)
-- [Módulo 10: Introdução às APIs](./Modulo_10)
-- [Módulo 11: Banco de Dados](./Modulo_11)
-- [Módulo 12: Testes Automatizados](./Modulo_12)
-- [Módulo 13: Desenvolvimento de APIs com Flask](./Modulo_13)
-- [Módulo 14: Introdução ao Django](./Modulo_14)
-- [Módulo 15: Projeto Final](./Modulo_15)
+## 📌 Índice de Módulos
 
----
+- [Módulo 01: Git, GitHub e Metodologias Ágeis](./módulo01)
+- [Módulo 02: Introdução ao Python](./módulo02)
+- [Módulo 03: Lógica de Programação com Python](./módulo03)
+- [Módulo 04: Estruturas de Dados](./módulo04)
+- [Módulo 05: Funções em Python](./módulo05)
+- [Módulo 06: Manipulação de Arquivos](./módulo06)
+- [Módulo 07: Módulos e Pacotes](./módulo07)
+- [Módulo 08: Programação Orientada a Objetos (POO)](./módulo08)
+- [Módulo 09: Tratamento de Exceções](./módulo09)
+- [Módulo 10: Introdução às APIs](./módulo10)
+- [Módulo 11: Banco de Dados](./módulo11)
+- [Módulo 12: Testes Automatizados](./módulo12)
+- [Módulo 13: Desenvolvimento de APIs com Flask](./módulo13)
+- [Módulo 14: Introdução ao Django](./módulo14)
+- [Módulo 15: Projeto Final](./módulo15)
 
 ## 📂 Conteúdo dos Módulos
 
