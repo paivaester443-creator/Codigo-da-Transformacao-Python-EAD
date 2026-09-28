@@ -4,50 +4,31 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-## 📌 Índice de Módulos
-
-## 📌 Índice de Módulos
-
-- [Módulo 01: Git, GitHub e Metodologias Ágeis](./módulo01)
-- [Módulo 02: Introdução ao Python](./módulo02)
-- [Módulo 03: Lógica de Programação com Python](./módulo03)
-- [Módulo 04: Estruturas de Dados](./módulo04)
-- [Módulo 05: Funções em Python](./módulo05)
-- [Módulo 06: Manipulação de Arquivos](./módulo06)
-- [Módulo 07: Módulos e Pacotes](./módulo07)
-- [Módulo 08: Programação Orientada a Objetos (POO)](./módulo08)
-- [Módulo 09: Tratamento de Exceções](./módulo09)
-- [Módulo 10: Introdução às APIs](./módulo10)
-- [Módulo 11: Banco de Dados](./módulo11)
-- [Módulo 12: Testes Automatizados](./módulo12)
-- [Módulo 13: Desenvolvimento de APIs com Flask](./módulo13)
-- [Módulo 14: Introdução ao Django](./módulo14)
-- [Módulo 15: Projeto Final](./módulo15)
 
 ## 📂 Conteúdo dos Módulos
 
-### 💻 [Módulo 01: Git, GitHub e Metodologias Ágeis](./Modulo_01)
+### 💻 [Módulo 01: Git, GitHub e Metodologias Ágeis](/Modulo_01)
 - Configuração do ambiente e inicialização do repositório remoto.
 - Fluxo de trabalho com `git clone`, `git commit` e `git push`.
 - Documentação do projeto através de `README.md`.
 
 ---
 
-### 🐍 [Módulo 02: Introdução ao Python](./Modulo_02)
+### 🐍 [Módulo 02: Introdução ao Python](/Modulo_02)
 - Testes de comandos básicos (`print()`, `type()`) no interpretador interativo.
 - Primeiro programa em Python com entrada do usuário (`input`).
 - **Desafio Extra:** Exibição da hora atual formatada com a biblioteca `datetime`.
 
 ---
 
-### 🧠 [Módulo 03: Lógica de Programação com Python](./Modulo_03)
+### 🧠 [Módulo 03: Lógica de Programação com Python](/Modulo_03)
 - Operadores aritméticos (soma, subtração, multiplicação, divisão e resto).
 - Estruturas condicionais (`if`, `elif`, `else`) para comparação e classificação de idades.
 - **Desafio Extra:** Calculadora interativa em terminal com controle de fluxo usando laço `while`.
 
 ---
 
-### 🔢 [Módulo 04: Estruturas de Dados](./Modulo_04)
+### 🔢 [Módulo 04: Estruturas de Dados](/Modulo_04)
 - Manipulação de Listas (adição, remoção e listagem dinâmica).
 - Estruturação de dados com Dicionários para registro de alunos.
 - Separação e filtragem de números pares e ímpares.
@@ -55,7 +36,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### ⚙️ [Módulo 05: Funções em Python](./Modulo_05)
+### ⚙️ [Módulo 05: Funções em Python](/Modulo_05)
 - Criação de funções personalizadas com reutilização de código (`saudacao`).
 - Função `calcular_media` com retorno de status de aprovação.
 - Função `maior_menor` para varredura de coleções numéricas.
@@ -63,7 +44,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 📁 [Módulo 06: Manipulação de Arquivos](./Modulo_06)
+### 📁 [Módulo 06: Manipulação de Arquivos](/Modulo_06)
 - Leitura e escrita de arquivos de texto simples (`.txt`).
 - Serialização e desserialização de dados com arquivos `JSON`.
 - Armazenamento e carga de dados organizados em arquivos `CSV`.
@@ -71,7 +52,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 📦 [Módulo 07: Módulos e Pacotes](./Modulo_07)
+### 📦 [Módulo 07: Módulos e Pacotes](/Modulo_07)
 - Criação e importação de módulos próprios (`utilidades.py`).
 - Uso de bibliotecas externas e utilitários (`faker`, `datetime`).
 - Jogo de adivinhação de números desenvolvido com `random` e `math`.
@@ -79,7 +60,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 🚗 [Módulo 08: Programação Orientada a Objetos (POO)](./Modulo_08)
+### 🚗 [Módulo 08: Programação Orientada a Objetos (POO)](/Modulo_08)
 - Definição da classe base `Carro` e seus atributos/métodos.
 - Conceito de Herança com a classe `CarroEletrico`.
 - Uso de métodos especiais como `__init__` e `__str__`.
@@ -87,7 +68,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 🐛 [Módulo 09: Tratamento de Exceções](./Modulo_09)
+### 🐛 [Módulo 09: Tratamento de Exceções](/Modulo_09)
 - Tratamento de erros comuns (`ZeroDivisionError`) com blocos `try-except`.
 - Criação de exceções personalizadas (`SaldoInsuficienteError`).
 - Validação estrita de entradas numéricas do usuário.
@@ -95,7 +76,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 🌐 [Módulo 10: Introdução às APIs](./Modulo_10)
+### 🌐 [Módulo 10: Introdução às APIs](/Modulo_10)
 - Consumo de dados externos via protocolo HTTP utilizando `requests`.
 - Integração com a API do OpenWeatherMap para previsão do tempo.
 - Tratamento de falhas de conexão HTTP.
@@ -103,7 +84,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 🗄️ [Módulo 11: Banco de Dados com SQLite / PostgreSQL](./Modulo_11)
+### 🗄️ [Módulo 11: Banco de Dados com SQLite / PostgreSQL](/Modulo_11)
 - Criação de esquemas e tabelas de banco de dados relacional.
 - Operações CRUD completas (Create, Read, Update, Delete).
 - Consultas filtradas com SQL (`WHERE`, `LIKE`).
@@ -111,21 +92,21 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 🧪 [Módulo 12: Testes Automatizados](./Modulo_12)
+### 🧪 [Módulo 12: Testes Automatizados](/Modulo_12)
 - Testes unitários de funções simples com o framework `unittest`.
 - Cobertura de cenários de erro e exceções em classes (`Calculadora`).
 - **Desafio Extra:** Implementação de suíte de testes para APIs Flask utilizando `pytest`.
 
 ---
 
-### 👨‍💻 [Módulo 13: Desenvolvimento de APIs com Flask](./Modulo_13)
+### 👨‍💻 [Módulo 13: Desenvolvimento de APIs com Flask](/Modulo_13)
 - Criação de rotas HTTP `GET` (`/saudacao`) e `POST` (`/cadastrar`).
 - Persistência de payloads JSON enviados para o banco SQLite.
 - **Desafio Extra:** API REST de Blog com autenticação de usuário e criação de posts.
 
 ---
 
-### 🌐 [Módulo 14: Introdução ao Django](./Modulo_14)
+### 🌐 [Módulo 14: Introdução ao Django](/Modulo_14)
 - Criação do projeto Django e definição do model `Produto`.
 - Implementação das views e URLs para CRUD completo da aplicação.
 - Configuração do Django Admin e testes das rotas.
@@ -133,7 +114,7 @@ Bem-vindo(a) ao meu repositório do curso **Código_Transformação**. Este espa
 
 ---
 
-### 🎯 [Módulo 15: Projeto Final](./Modulo_15)
+### 🎯 [Módulo 15: Projeto Final](/Modulo_15)
 - Documentação de requisitos e arquitetura da aplicação.
 - Backend construído em Django/Flask com integração a banco relacional.
 - Interface Frontend interativa consumindo os endpoints da API.
